@@ -1,4 +1,4 @@
-let passportMarried = {
+let passportWithAddress = {
     name: "Petr",
     surname: "Petrov",
     address: {
@@ -7,7 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarried2 = JSON.parse(JSON.stringify(passportMarried));
+let passportMarried2 = JSON.parse(JSON.stringify(passportWithAddress));
 
 passportMarried2.married = true;
 
