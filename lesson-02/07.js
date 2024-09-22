@@ -7,7 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarried2 = JSON.parse(JSON.stringify(passportWithAddress));
+let passportMarried2 = JSON.parse(JSON.stringify(passportMarried));
 
 passportMarried2.married = true;
 
